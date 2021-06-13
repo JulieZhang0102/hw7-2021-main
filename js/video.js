@@ -1,3 +1,6 @@
+//The Github repo link is https://github.com/JulieZhang0102/hw7-2021-main.git
+//The web page can be accessed at https://juliezhang0102.github.io/hw7-2021-main/
+
 var video = document.getElementById("player1");
 
 window.addEventListener("load", function() {
