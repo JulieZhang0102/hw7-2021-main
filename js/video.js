@@ -34,6 +34,7 @@ document.querySelector("#faster").addEventListener("click", function() {
 document.querySelector("#skip").addEventListener("click", function() {
 	var position = video.currentTime
 	if (position + 15 >= video.duration) {
+		console.log("Original location " + position)
 		video.currentTime = 0
 		console.log("Going back to beginning")
 	} else {
